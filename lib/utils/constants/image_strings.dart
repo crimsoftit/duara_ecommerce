@@ -1,0 +1,40 @@
+class RImages {
+  // -- app logos
+  static const String lightAppLogo = "assets/logos/dmanu_icon.png";
+  static const String darkAppLogo = "assets/logos/dm_icon_no_bg.png";
+
+  // -- social sites logos
+  static const String google = "assets/logos/google.png";
+  static const String fb = "assets/logos/facebook-icon.png";
+}
+
+// -- splash screen images
+const String rSplashTopIcon = "assets/icons/brands/ecommerce.jpg";
+const String rSplashImage = "assets/logos/splash.gif";
+const String rSplashImage1 = "assets/logos/dmanulogo.png";
+const String rSplashIcon = "assets/icons/dmanu_icon.png";
+
+// -- onboarding screen images
+const String rOnboardingImg1 =
+    "assets/images/on_boarding_images/onboarding_img_1.gif";
+const String rOnboardingImg2 =
+    "assets/images/on_boarding_images/onboarding_img_2.gif";
+const String rOnboardingImg3 =
+    "assets/images/on_boarding_images/onboarding_img_3.gif";
+
+// -- welcome screen images
+const String rWelcomeScreenImg1 =
+    "assets/images/welcome_screen_images/login_3.jpg";
+
+// -- login & signup images
+const String rLoginImg = "assets/images/login/login.png";
+const String rSignupImg = "assets/images/login/signup1.png";
+
+const String rPswdResetImg = "assets/images/login/forgot_pswd.png";
+
+// -- dashboard images
+const rProfileImg = "assets/images/dashboard/batman.jpg";
+const rBannerImg1 = "assets/images/dashboard/banner_1.jpeg";
+
+// -- profile screen images
+const rUserProfileImg = "assets/images/profile/dp_new.jpg";
