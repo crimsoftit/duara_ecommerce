@@ -37,6 +37,7 @@ dependencies:
   path_provider: any
   logger: ^2.0.1
   url_launcher: ^6.1.12
+  flutter_native_splash: ^2.3.2
 
   # state management
   get: ^4.6.6
@@ -89,7 +90,7 @@ dependencies:
   # google fonts
   google_fonts: ^6.1.0
 
-  flutter_native_splash: ^2.2.0+1
+  
 
    
   
