@@ -9,11 +9,11 @@ class RElevatedButtonTheme {
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: RColors.white,
-      backgroundColor: rBrown,
+      backgroundColor: RColors.rBrown,
       disabledForegroundColor: RColors.grey,
       disabledBackgroundColor: RColors.grey,
       side: const BorderSide(
-        color: rBrown,
+        color: RColors.rBrown,
       ),
       padding: const EdgeInsets.symmetric(
         vertical: 18.0,
@@ -34,11 +34,11 @@ class RElevatedButtonTheme {
     style: ElevatedButton.styleFrom(
       elevation: 0,
       foregroundColor: RColors.white,
-      backgroundColor: rBrown,
+      backgroundColor: RColors.rBrown,
       disabledForegroundColor: RColors.grey,
       disabledBackgroundColor: RColors.grey,
       side: const BorderSide(
-        color: rBrown,
+        color: RColors.rBrown,
       ),
       textStyle: const TextStyle(
         fontSize: 16.0,

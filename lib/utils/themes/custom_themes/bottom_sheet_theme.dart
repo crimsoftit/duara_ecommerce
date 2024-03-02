@@ -18,8 +18,8 @@ class RBottomSheetTheme {
 
   static BottomSheetThemeData darkBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
-    backgroundColor: rBrown,
-    modalBackgroundColor: rBrown,
+    backgroundColor: RColors.rBrown,
+    modalBackgroundColor: RColors.rBrown,
     constraints: const BoxConstraints(
       minWidth: double.infinity,
     ),

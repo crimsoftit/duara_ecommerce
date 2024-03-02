@@ -8,13 +8,13 @@ class ROutlinedButtonTheme {
   static final outlinedBtnLightTheme = OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
       elevation: 0,
-      foregroundColor: rBrown,
+      foregroundColor: RColors.rBrown,
       side: const BorderSide(
-        color: rBrown,
+        color: RColors.rBrown,
       ),
       textStyle: const TextStyle(
         fontSize: 16.0,
-        color: rBrown,
+        color: RColors.rBrown,
         fontWeight: FontWeight.w600,
       ),
       padding: const EdgeInsets.symmetric(

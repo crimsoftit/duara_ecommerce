@@ -8,7 +8,7 @@ class RChipTheme {
     disabledColor: RColors.lightGrey,
     //disabledColor: rGrey.withOpacity(0.4),
     labelStyle: TextStyle(
-      color: rBrown,
+      color: RColors.rBrown,
     ),
     selectedColor: rBlue,
     padding: EdgeInsets.symmetric(

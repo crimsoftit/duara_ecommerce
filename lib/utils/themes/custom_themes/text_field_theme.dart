@@ -11,17 +11,17 @@ class RTextFormFieldTheme {
     suffixIconColor: RColors.grey,
     labelStyle: const TextStyle().copyWith(
       fontSize: 14.0,
-      color: rBrown,
+      color: RColors.rBrown,
     ),
     hintStyle: const TextStyle().copyWith(
       fontSize: 14.0,
-      color: rBrown,
+      color: RColors.rBrown,
     ),
     errorStyle: const TextStyle().copyWith(
       fontStyle: FontStyle.italic,
     ),
     floatingLabelStyle: const TextStyle().copyWith(
-      color: rBrown.withOpacity(0.8),
+      color: RColors.rBrown.withOpacity(0.8),
     ),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(10),
@@ -41,7 +41,7 @@ class RTextFormFieldTheme {
       borderRadius: BorderRadius.circular(10),
       borderSide: BorderSide(
         width: 1.0,
-        color: rBrown.shade100,
+        color: RColors.rBrown.shade100,
       ),
     ),
     errorBorder: const OutlineInputBorder().copyWith(

@@ -39,15 +39,18 @@ dependencies:
   url_launcher: ^6.1.12
   flutter_native_splash: ^2.3.2
 
+  # swipe/slideshow and indicator - onboardng packages
+  liquid_swipe: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+
   # state management
   get: ^4.6.6
   universal_io: ^2.2.2
   get_storage: ^2.1.1
 
 
-  # swipe/slideshow and indicator - onboardng packages
-  liquid_swipe: ^3.0.0
-  smooth_page_indicator: ^1.1.0
+  
+  
 
 
   # -- otp textfield package
@@ -89,10 +92,7 @@ dependencies:
 
   # google fonts
   google_fonts: ^6.1.0
-
   
-
-   
   
   intl_phone_field: ^3.2.0
   loading_btn: ^1.0.3
@@ -115,6 +115,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/on_boarding_images/
     - assets/logos/
     - assets/icons/
 

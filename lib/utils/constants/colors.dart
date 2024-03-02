@@ -56,11 +56,13 @@ class RColors {
   static const Color info = Color(0xff1976d2);
   static const Color success = Color(0xFF388e3c);
   static const Color warning = Color(0xfff57c00);
+
+  // -- basic colors
+  static const rBrown = Colors.brown;
 }
 
 /* -- LIST OF ALL COLORS --*/
 
-const rBrown = Colors.brown;
 const rBlue = Colors.blue;
 const rOrange = Colors.orange;
 

@@ -2,16 +2,16 @@ class RTexts {
   // -- global text strings
 
   // -- onboarding screen text formats
-  static const String rOnbaordingTitle1 = "future-proof your bz with tech";
-  static const String rOnbaordingTitle2 = "learn from the best";
+  static const String rOnbaordingTitle1 = "choose your product";
+  static const String rOnbaordingTitle2 = "select payment method";
   static const String rOnbaordingTitle3 = "save time & money";
 
   static const String rOnbaordingSubTitle1 =
-      "begin your journey with us on this easy & amazing platform";
+      "welcome to a world of limitless choices; your perfect product awaits!";
   static const String rOnbaordingSubTitle2 =
-      "get timely and accurate reports regarding your sales";
+      "for seamless transactions, choose your payment path; your convenience, our priority!";
   static const String rOnbaordingSubTitle3 =
-      "save time and money using our app for retail management";
+      "from our doorstep to yours; swift, secure, and contactless delivery!";
 }
 
 // -- splash screen text formats
