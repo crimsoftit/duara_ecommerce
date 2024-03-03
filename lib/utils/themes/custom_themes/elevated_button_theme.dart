@@ -16,10 +16,10 @@ class RElevatedButtonTheme {
         color: RColors.rBrown,
       ),
       padding: const EdgeInsets.symmetric(
-        vertical: 18.0,
+        vertical: 10.0,
       ),
       textStyle: const TextStyle(
-        fontSize: 16.0,
+        fontSize: 11.0,
         color: RColors.white,
         fontWeight: FontWeight.w600,
       ),
@@ -41,12 +41,12 @@ class RElevatedButtonTheme {
         color: RColors.rBrown,
       ),
       textStyle: const TextStyle(
-        fontSize: 16.0,
+        fontSize: 11.0,
         color: RColors.white,
         fontWeight: FontWeight.w600,
       ),
       padding: const EdgeInsets.symmetric(
-        vertical: 18.0,
+        vertical: 10.0,
       ),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(5.0),

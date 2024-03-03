@@ -2,7 +2,10 @@ class RImages {
   // -- app logos
   static const String lightAppLogo = "assets/logos/dmanu_icon.png";
   static const String darkAppLogo = "assets/logos/dm_icon_no_bg.png";
-
+  static const String lightAppLogo_1 =
+      "assets/logos/t-store-splash-logo-white.png";
+  static const String darkAppLogo_1 =
+      "assets/logos/t-store-splash-logo-black.png";
   // -- social sites logos
   static const String google = "assets/logos/google.png";
   static const String fb = "assets/logos/facebook-icon.png";

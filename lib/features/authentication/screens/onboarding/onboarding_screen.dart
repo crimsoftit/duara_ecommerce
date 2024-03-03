@@ -1,13 +1,12 @@
-import 'package:duara_ecommerce/features/authentication/controllers/onboarding/onboarding_controller.dart';
-import 'package:duara_ecommerce/features/authentication/screens/onboarding/widgets/onboarding_dot_nav_widget.dart';
-import 'package:duara_ecommerce/features/authentication/screens/onboarding/widgets/onboarding_next_btn_widget.dart';
-
+import 'package:duara_ecommerce/features/authentication/controllers/onboarding/ob_controller.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:duara_ecommerce/utils/constants/text_strings.dart';
 import 'package:duara_ecommerce/utils/constants/image_strings.dart';
-import 'package:duara_ecommerce/features/authentication/screens/onboarding/widgets/onboarding_screen_widget.dart';
-import 'package:duara_ecommerce/features/authentication/screens/onboarding/widgets/onboarding_skip_btn_widget.dart';
+import 'package:duara_ecommerce/features/authentication/screens/onboarding/widgets/ob_dot_nav_widget.dart';
+import 'package:duara_ecommerce/features/authentication/screens/onboarding/widgets/ob_next_btn_widget.dart';
+import 'package:duara_ecommerce/features/authentication/screens/onboarding/widgets/ob_screen_widget.dart';
+import 'package:duara_ecommerce/features/authentication/screens/onboarding/widgets/ob_skip_btn_widget.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});

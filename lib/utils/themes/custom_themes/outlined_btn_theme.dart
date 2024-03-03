@@ -13,12 +13,12 @@ class ROutlinedButtonTheme {
         color: RColors.rBrown,
       ),
       textStyle: const TextStyle(
-        fontSize: 16.0,
+        fontSize: 11.0,
         color: RColors.rBrown,
         fontWeight: FontWeight.w600,
       ),
       padding: const EdgeInsets.symmetric(
-        vertical: 18.0,
+        vertical: 10.0,
       ),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(5.0),
@@ -34,13 +34,13 @@ class ROutlinedButtonTheme {
         color: rPrimaryBrown,
       ),
       textStyle: const TextStyle(
-        fontSize: 16.0,
+        fontSize: 11.0,
         color: RColors.white,
         fontWeight: FontWeight.w600,
       ),
       padding: const EdgeInsets.symmetric(
-        vertical: 16.0,
-        horizontal: 20.0,
+        vertical: 10.0,
+        //horizontal: 20.0,
       ),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(5.0),

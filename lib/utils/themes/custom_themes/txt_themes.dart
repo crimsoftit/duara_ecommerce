@@ -6,17 +6,17 @@ class RTextTheme {
 
   static TextTheme ligtTextTheme = TextTheme(
     headlineLarge: const TextStyle().copyWith(
-      fontSize: 32.0,
+      fontSize: 28.0,
       fontWeight: FontWeight.bold,
       color: Colors.brown,
     ),
     headlineMedium: const TextStyle().copyWith(
-      fontSize: 24.0,
+      fontSize: 18.0,
       fontWeight: FontWeight.w600,
       color: Colors.brown,
     ),
     headlineSmall: const TextStyle().copyWith(
-      fontSize: 18.0,
+      fontSize: 14.0,
       fontWeight: FontWeight.w500,
       color: Colors.brown,
     ),
@@ -46,7 +46,7 @@ class RTextTheme {
       color: Colors.brown,
     ),
     bodySmall: const TextStyle().copyWith(
-      fontSize: 14.0,
+      fontSize: 12.0,
       fontWeight: FontWeight.w400,
       color: Colors.brown,
     ),

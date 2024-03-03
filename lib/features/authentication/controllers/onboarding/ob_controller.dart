@@ -1,3 +1,4 @@
+import 'package:duara_ecommerce/features/authentication/screens/login/login.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -22,7 +23,7 @@ class OnboardingController extends GetxController {
   // -- update current index and jump to next page
   void nextPage() {
     if (currentPageIndex.value == 2) {
-      // Get.to(LoginScreen());
+      Get.offAll(const LoginScreen());
     } else {
       int nextPage = currentPageIndex.value + 1;
       pageController.jumpToPage(nextPage);

@@ -1,9 +1,9 @@
+import 'package:duara_ecommerce/features/authentication/controllers/onboarding/ob_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:duara_ecommerce/utils/constants/sizes.dart';
 import 'package:duara_ecommerce/utils/constants/colors.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:duara_ecommerce/utils/device/device_utility.dart';
-import 'package:duara_ecommerce/features/authentication/controllers/onboarding/onboarding_controller.dart';
 
 class OnboardingDotNavWidget extends StatelessWidget {
   const OnboardingDotNavWidget({

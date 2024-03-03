@@ -1,4 +1,4 @@
-import 'package:duara_ecommerce/features/authentication/controllers/onboarding/onboarding_controller.dart';
+import 'package:duara_ecommerce/features/authentication/controllers/onboarding/ob_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:duara_ecommerce/utils/constants/sizes.dart';
 import 'package:duara_ecommerce/utils/device/device_utility.dart';

@@ -10,11 +10,11 @@ class RTextFormFieldTheme {
     prefixIconColor: RColors.grey,
     suffixIconColor: RColors.grey,
     labelStyle: const TextStyle().copyWith(
-      fontSize: 14.0,
+      fontSize: 11.0,
       color: RColors.rBrown,
     ),
     hintStyle: const TextStyle().copyWith(
-      fontSize: 14.0,
+      fontSize: 11.0,
       color: RColors.rBrown,
     ),
     errorStyle: const TextStyle().copyWith(
@@ -66,11 +66,11 @@ class RTextFormFieldTheme {
     prefixIconColor: RColors.grey,
     suffixIconColor: RColors.grey,
     labelStyle: const TextStyle().copyWith(
-      fontSize: 14.0,
+      fontSize: 11.0,
       color: RColors.white,
     ),
     hintStyle: const TextStyle().copyWith(
-      fontSize: 14.0,
+      fontSize: 11.0,
       color: RColors.white,
     ),
     errorStyle: const TextStyle().copyWith(
