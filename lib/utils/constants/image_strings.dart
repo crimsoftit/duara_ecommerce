@@ -34,4 +34,18 @@ class RImages {
 
   // -- profile screen images
   static const rUserProfileImg = "assets/images/profile/dp_new.jpg";
+
+  // -- animations
+  static const productsIllustration =
+      "assets/images/animations/sammy-line-workout.gif";
+  static const productsSaleIllustration =
+      "assets/images/animations/sammy-line-sale.png";
+  static const staticSuccessIllustration =
+      "assets/images/animations/sammy-line-success.png";
+  static const deliveredInPlaneIllustration =
+      "assets/images/animations/sammy-line-come-back-later.png";
+  static const deliveredEmailIllustration =
+      "assets/images/animations/sammy-line-man-receives-a-mail.png";
+  static const verifyIllustration =
+      "assets/images/animations/sammy-line-travel-backpack-with-passport-and-air-ticket.gif";
 }

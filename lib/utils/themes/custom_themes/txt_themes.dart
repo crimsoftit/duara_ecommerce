@@ -41,27 +41,27 @@ class RTextTheme {
       color: Colors.brown,
     ),
     bodyMedium: const TextStyle().copyWith(
-      fontSize: 14.0,
+      fontSize: 12.0,
       fontWeight: FontWeight.normal,
       color: Colors.brown,
     ),
     bodySmall: const TextStyle().copyWith(
-      fontSize: 12.0,
+      fontSize: 10.0,
       fontWeight: FontWeight.w400,
       color: Colors.brown,
     ),
     labelLarge: const TextStyle().copyWith(
-      fontSize: 14.0,
+      fontSize: 13.0,
       fontWeight: FontWeight.normal,
       color: Colors.brown,
     ),
     labelMedium: const TextStyle().copyWith(
-      fontSize: 12.0,
+      fontSize: 9.0,
       fontWeight: FontWeight.normal,
       color: Colors.brown,
     ),
     labelSmall: const TextStyle().copyWith(
-      fontSize: 10.0,
+      fontSize: 8.0,
       fontWeight: FontWeight.normal,
       color: Colors.brown,
     ),
@@ -105,27 +105,27 @@ class RTextTheme {
       color: Colors.white,
     ),
     bodyMedium: const TextStyle().copyWith(
-      fontSize: 14.0,
-      fontWeight: FontWeight.normal,
-      color: Colors.white,
-    ),
-    bodySmall: const TextStyle().copyWith(
-      fontSize: 14.0,
-      fontWeight: FontWeight.w400,
-      color: Colors.white,
-    ),
-    labelLarge: const TextStyle().copyWith(
-      fontSize: 14.0,
-      fontWeight: FontWeight.normal,
-      color: Colors.white,
-    ),
-    labelMedium: const TextStyle().copyWith(
       fontSize: 12.0,
       fontWeight: FontWeight.normal,
       color: Colors.white,
     ),
-    labelSmall: const TextStyle().copyWith(
+    bodySmall: const TextStyle().copyWith(
       fontSize: 10.0,
+      fontWeight: FontWeight.w400,
+      color: Colors.white,
+    ),
+    labelLarge: const TextStyle().copyWith(
+      fontSize: 13.0,
+      fontWeight: FontWeight.normal,
+      color: Colors.white,
+    ),
+    labelMedium: const TextStyle().copyWith(
+      fontSize: 9.0,
+      fontWeight: FontWeight.normal,
+      color: Colors.white,
+    ),
+    labelSmall: const TextStyle().copyWith(
+      fontSize: 8.0,
       fontWeight: FontWeight.normal,
       color: Colors.white,
     ),

@@ -1,18 +1,18 @@
 import 'package:duara_ecommerce/utils/constants/colors.dart';
+import 'package:duara_ecommerce/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 
-class FormDivider extends StatelessWidget {
-  const FormDivider({
+class RFormDivider extends StatelessWidget {
+  const RFormDivider({
     super.key,
-    required this.isDark,
     required this.dividerText,
   });
 
-  final bool isDark;
   final String dividerText;
 
   @override
   Widget build(BuildContext context) {
+    final isDark = RHelperFunctions.isDarkMode(context);
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [

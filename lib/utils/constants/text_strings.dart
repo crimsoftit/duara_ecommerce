@@ -6,14 +6,14 @@ class RTexts {
   static const String password = "password";
   static const String newPassword = "new password";
   static const String username = "username";
-  static const String phoneNo = "phone number";
+  static const String phoneNo = "0123 456 789";
   static const String rememberMe = "remember me?";
   static const String forgotPassword = "forgot password";
   static const String signIn = "sign in";
   static const String createAccount = "create account";
   static const String orSignInWith = "or sign in with ";
   static const String orSignUpWith = "or sign up with ";
-  static const String iAgreeTo = "I agree to ";
+  static const String iAgreeTo = "I agree to";
   static const String privacyPolicy = "privacy policy";
   static const String termsOfUse = "terms of use";
   static const String verificationCode = "verification code";

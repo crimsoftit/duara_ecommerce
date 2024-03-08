@@ -12,10 +12,12 @@ class RTextFormFieldTheme {
     labelStyle: const TextStyle().copyWith(
       fontSize: 11.0,
       color: RColors.rBrown,
+      fontWeight: FontWeight.normal,
     ),
     hintStyle: const TextStyle().copyWith(
       fontSize: 11.0,
       color: RColors.rBrown,
+      fontWeight: FontWeight.normal,
     ),
     errorStyle: const TextStyle().copyWith(
       fontStyle: FontStyle.italic,
@@ -68,10 +70,12 @@ class RTextFormFieldTheme {
     labelStyle: const TextStyle().copyWith(
       fontSize: 11.0,
       color: RColors.white,
+      fontWeight: FontWeight.normal,
     ),
     hintStyle: const TextStyle().copyWith(
       fontSize: 11.0,
       color: RColors.white,
+      fontWeight: FontWeight.normal,
     ),
     errorStyle: const TextStyle().copyWith(
       fontStyle: FontStyle.italic,

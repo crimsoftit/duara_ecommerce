@@ -1,7 +1,10 @@
+import 'package:duara_ecommerce/features/authentication/screens/pswd_config/forgot_password.dart';
+import 'package:duara_ecommerce/features/authentication/screens/signup/signup.dart';
 import 'package:duara_ecommerce/utils/constants/colors.dart';
 import 'package:duara_ecommerce/utils/constants/sizes.dart';
 import 'package:duara_ecommerce/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class LoginForm extends StatelessWidget {
@@ -66,10 +69,12 @@ class LoginForm extends StatelessWidget {
 
                 // -- forgot password
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Get.to(() => const ForgotPasswordScreen());
+                  },
                   child: Text(
                     RTexts.forgotPassword,
-                    style: Theme.of(context).textTheme.labelSmall,
+                    style: Theme.of(context).textTheme.labelMedium,
                   ),
                 ),
               ],
@@ -100,9 +105,12 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(() => const SignupScreen());
+                },
                 child: Text(
                   RTexts.createAccount.toUpperCase(),
+                  style: Theme.of(context).textTheme.labelMedium,
                 ),
               ),
             ),
